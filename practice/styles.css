@@ -1,0 +1,16 @@
+form{
+    background-color: black;
+    width: 450;
+    padding: 20px;
+    margin-top: 15px;
+
+}
+.today{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    display: block;
+}
+.tall{
+    margin-top: 15px; 
+}

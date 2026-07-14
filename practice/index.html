@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>practice</title>
 </head>
+
 <body>
     <h1>welcome</h1>
     <nav>
-        <a href="#">Home</a>
-         <a href="#">About</a>
-          <a href="#">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="signup.html">Sign Up</a>
     </nav>
     <main>
         <div class="container">
@@ -21,31 +24,56 @@
             <div class="content">
                 <p>This paragraph has a <span class="highlight">highlighted word</span> in it</p>
             </div><br>
-            <form>
-                <label>
-                    User Name (Login ID)
-                </label>
-                <input type="text" name="Login" required> <br>
-                <label>
-                    Password
-                </label>
-                <input type="password" id="password" name="password" required <br><br>
+            <div class="today">
 
-                <label>
-                    <input type="checkbox" id="showPassword" onclick="togglePassword()"> Show password<br>
-                    
-                </label>
-                
-                <label>
-                    Email
-                </label>
-                <input type="email" name="Email"required
+                <form style="border: 2px solid black; width: 450px; background-color: aquamarine; padding:60px;">
+                    <label>
+                        User Name (Login ID)
+                    </label>
+                    <input type="text" name="Login" required> <br>
+                    <label>
+                        Password
+                    </label>
+                    <input type="password" id="password" name="password" required <br><br>
 
-            </form>
-    
+                    <label>
+                        <input type="checkbox" id="showPassword" onclick="togglePassword()"> Show password<br>
 
-        </div>
+                    </label>
+
+                    <label>
+                        Email
+                    </label>
+                    <input type="email" name="Email" required 
+                </form><br><br>
+
+                <form class="tall">
+                        <label>
+                            User Name (Login ID)
+                        </label>
+                        <input type="text" name="Login" required> <br>
+                        <label>
+                            Password
+                        </label>
+                        <input type="password" id="password" name="password" required <br><br>
+
+                        <label>
+                            <input type="checkbox" id="showPassword" onclick="togglePassword()"> Show password<br>
+
+                        </label>
+
+                        <label>
+                            Email
+                        </label>
+                        <input type="email" name="Email" required 
+                </form><br><br>
+
+
+
+            </div>
+
     </main>
-    
+
 </body>
+
 </html>
