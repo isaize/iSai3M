@@ -29,8 +29,13 @@ body {
     
 
 }
-.h-links{
-   text-decoration-color: aquamarine;
+.h-links a{
+   text-decoration: none;
+   color: white;
+}
+.h-links a:hover {
+	text-decoration: underline;
+	text-decoration-color: yellow;
 }
 .background{
     display: block;
